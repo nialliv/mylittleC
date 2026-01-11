@@ -1,0 +1,9 @@
+CompileFlags:
+  Add: [-Wall, -Wextra, -std=c17]  # или c17, c99
+
+Diagnostics:
+  ClangTidy:
+    Add: [
+      modernize-*,
+      performance-*,
+    ]
